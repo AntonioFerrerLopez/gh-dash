@@ -64,8 +64,12 @@ func (parser ConfigParser) getDefaultConfig() Config {
 		},
 		PRSections: []SectionConfig{
 			{
-				Title:   "My Pull Requests",
+				Title:   "Mis Pr`s",
 				Filters: "is:open author:@me",
+			},
+						{
+				Title:   "TciManager",
+				filters: is:open -author:@me repo:vnikiet/promanager
 			},
 			{
 				Title:   "Needs My Review",
